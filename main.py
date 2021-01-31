@@ -1,4 +1,5 @@
 from __future__ import print_function
+import acc
 import requests
 import time
 import json
@@ -6,7 +7,7 @@ import sys
 import twitter
 from twilio.rest import Client
 
-client = Client("ACc52c75209500e9dbc4f046fc3979a8c7", "8f4281143bfcf6cbc3b4e8ceeb7d1f80")
+client = Client(acc.account, "8f4281143bfcf6cbc3b4e8ceeb7d1f80")
 consumer_key ="PbOsBxtz6yYvv4aNqI1RZpF2L"
 consumer_key_sec = "6Fog2uWthJ2c20XeP8Yr3EPDwwoMmpTTirCs0P1NfRswkb9tC7"
 token = "3328669373-KtVD68tH5pImIZqwa5mCLMFyOr35W1tr2BpxXkd"
